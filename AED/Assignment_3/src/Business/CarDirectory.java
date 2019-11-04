@@ -18,7 +18,7 @@ public class CarDirectory {
     }
 
     public ArrayList<CarDetails> getCarDetailsList() {
-        return carDetailsList;
+        return this.carDetailsList;
     }
 
     public void setCarDetailsList(ArrayList<CarDetails> carDetailsList) {
