@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.root.fusion"
+    android:largeHeap="true" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoredw"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splashh"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About_fusion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tpp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".about_us"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tabtest"
+            android:label="@string/title_activity_tabtest"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".webby"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Codex"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dreamjob"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Textit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Treasure"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Techno"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ad_mania"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Circuitrix"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MockP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Maiboli"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Antakshari"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mozart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Rap"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Rock"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Hargali"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MrMrs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dramebaaz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Shortcut"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sketch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Rubix"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Boxcric"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Rink"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Rangoli"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Apahran"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Beg"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Striker"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lazer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PicHunt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bathroom"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sixty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bakasur"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Masterchef"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ratta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Langame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Web"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Visitweb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Developed"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Contactus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".schedule"
+            android:screenOrientation="landscape"
+            />
+        <activity android:name=".table" />
+        <activity android:name=".chess" />
+        <activity android:name=".sketchlyrics" />
+        <activity android:name=".pullpush" />
+        <activity android:name=".tshirt" />
+        <activity android:name=".trip" >
+        </activity>
+    </application>
+
+</manifest>

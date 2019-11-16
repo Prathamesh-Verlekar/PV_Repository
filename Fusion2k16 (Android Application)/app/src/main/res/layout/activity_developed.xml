@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/maindev"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="6dp"
+    tools:context="com.example.root.fusion.Developed">
+
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="#1a1a1a"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.CardView
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    app:cardBackgroundColor="#424242"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/disc"
+                        android:textColor="#EEEEEE"
+                        android:padding="8dp"
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\t\tWe Students of PVPP college pursuing our engineering in Computer Department.\n\t\tWe have developed this application on the basis of our previous academic knowledge,along with the blessing's of 'GOOGLE BABA'."
+                        />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="#424242"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/muk"
+                            android:textColor="#EEEEEE"
+                            android:textSize="25dp"
+                            android:layout_margin="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mukesh Suthar "/>
+                        <TextView
+                            android:id="@+id/mukdisc"
+                            android:textColor="#EEEEEE"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginBottom="8dp"
+                            android:autoLink="all"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mob no. 8097441941 \nEmail: mukeshsuthar336@gmail.com"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="#424242"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/pv"
+                            android:textColor="#EEEEEE"
+                            android:textSize="25dp"
+                            android:layout_margin="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Prathamesh Verlekar"/>
+                        <TextView
+                            android:id="@+id/pvdisc"
+                            android:textColor="#EEEEEE"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginBottom="8dp"
+                            android:autoLink="all"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mob no. 9619025821 \nEmail: prathameshverlekar2612gmail.com"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="#424242"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/sush"
+                            android:textColor="#EEEEEE"
+                            android:textSize="25dp"
+                            android:layout_margin="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sushant Dakwe"/>
+                        <TextView
+                            android:id="@+id/sushdisc"
+                            android:textColor="#EEEEEE"
+                            android:autoLink="all"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mob no. 9167407019 \nEmail: sushantdakwe.0405@gmail.com"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#323232"
+    tools:context="com.example.root.fusion.about_us">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView2">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/c64896d3b84f109f0b81362896ac8800cover6"
+        android:id="@+id/imagea"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutUs"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:background="#7A151515"
+        />
+</android.support.v7.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        >
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardBackgroundColor="#1a1a1a"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\t\t\tPVPPCOE is an Engineering College in Maharastra,Mumbai - established in 1991, the foundation for which was laid under the able leadership of Yashwantrao Chavan, is affiliated to University of Mumbai. The college is approved by the Government of Maharashtra, Directorate of Technical education (DTE) and All India Council for Technical Education (AICTE). The college conducts Degree courses leading to B.E. Degree in the disciplines of Engineering Courses in Electronic, Computers, Electronic and Telecommunication and Information Technology which are accredited by the National Board of Accreditation (NBA).\n\n\t\tOur college also has various students associations namely Computer Engineering Student Association (CESA), Electronics Engineering Student Association (EESA), Electronics Telecommunication Engineering Student Association (ETSA),InformationTechnology Student Association (ITSA) and First Year Engineering Student Association (FESA). There are various professional bodies like Institute of Electrical and Electronics Engineers, USA (IEEE), Institute of Electronics and Telecommunication Engineers (IETE), Indian Society for Technical Education (ISTE), IE (I) i.e. Institute of Engineers (India), Computer Society of India (CSI) to organize the Techno Culture events."
+                />
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+
+</LinearLayout>

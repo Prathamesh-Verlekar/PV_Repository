@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#262626"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:src="@drawable/logo"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardBackgroundColor="#1a1a1a"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="50dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Box Cricket"/>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    app:cardElevation="5dp"
+                    app:cardBackgroundColor="#1a1a1a"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:textSize="17dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\t\t\t\t\t\t\t\t\t\tEntry Fees 300/- Rs\n\n\t\t\tRules And Regulations Box Cricket
+\n
+
+\n The team should report 30 minutes before the scheduled matches.
+ \n
+
+\n If a team reports late, the team will be penalized as per the discretion of the umpire.
+ \n
+
+\n The rules as adopted shall apply, unless otherwise modified fully/partially and specified.
+\n
+
+\n Balls and All other Cricketing Equipment's will be provided by the organizers.
+\n
+
+\n Each team will be given 20 minutes to bowl 05 over's and if exceeded will be penalized by the Umpires.
+ \n
+
+\n Free Hit will be given for every overstepped No-Ball or wide balls will be given 02 runs. Fielding restrictions is not applicable.
+ \n
+
+\n Decision of the Umpire will be final.
+ \n
+
+\n The squad should consist of 06 players.
+ \n
+
+ \nThe balls will be thrown overhand to the batsmen from half Pitch. The tournament will be played with soft Tennis ball.
+ \n
+
+\n All the hits outside the Box will be declared out.
+ \n
+
+ \nThe tournament will be played on knockout basis.
+ \n
+
+ \nAll other details of the activity will be explained on the spot by the activity supervisors.
+ \n
+"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    app:cardElevation="5dp"
+                    app:cardBackgroundColor="#1a1a1a"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_margin="5dp"
+                            android:textSize="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Contact"
+                            />
+                        <TextView
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:autoLink="phone"
+                            android:text="Manish Dalvi 09870642724"
+                            />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>

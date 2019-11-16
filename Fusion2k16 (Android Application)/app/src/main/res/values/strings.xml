@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fusion 2K16</string>
+    <string name="events">EVENTS</string>
+    <string name="title_activity_menu_main">FUSION 2K15</string>
+    <string name="action_settings">DEVELOPED BY</string>
+    <string name="visitSite">VISIT WEBSITE</string>
+    <string name="aboutUs">ABOUT US</string>
+    <string name="ContactUs">CONTACT US</string>
+    <string name="abtfusiondisc">\t\t\t\tFusion is the annual Techno-Cultural festival of, PadmabhushanVasantdada Patil Pratishthan’s College of Engineering. Fusion means a combination of different materials, which in our case, is a mixture of technical and cultural activities .Fusion is a platform for students to show off their Technical and Creative skills. It is a tradition of this college which is being followed for more than 15 years now. Fusion: Glitters of unity and exuberance, a three day long extravaganza. An event that will provide not only fun and frolic, but the opportunity to interact with pupils of different institutions .Fusion is the platform to showcase talent of a student. The event will host a bagful of activities.</string>
+    <string name="title_technicalitem_list">Event list</string>
+    <string name="title_technicalitem_detail">Event Detail</string>
+    <string name="title_activity_apply_main">Registration</string>
+    <string name="title_activity_contact_main">ContactMainActivity</string>
+    <string name="title_activity_contact_us">CONTACT US</string>
+    <string name="abtFusion">ABOUT FUSION</string>
+    <string name="title_activity_about_fusion">AboutFusion</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_about_developers">Developers</string>
+    <string name="Developer">DEVELOPED BY</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_activity_schedule">Schedule Of Events</string>
+    <string name="title_activity_tabtest">Events</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tppc">Shridhar Sahu 8652459641 \nSharik Khan 8898277205</string>
+    <string name="codex">Amit Chaurasia 9920621795\nAkshay Nayak 7738145415\nJitendra Patra</string>
+    <string name="webby">Rahul Gupta 8108211596\nPrathamesh Waidande 9594989076\nNishant Kaushik</string>
+    <string name="Dream">Priyanka Bhowar 9004043289\nDeepak Paswan 8898537039</string>
+    <string name="Treasure">Jainarth Kulkarni 8879279989\nShubham Marudkar 7303037828\nDeesha Jain 8433304656</string>
+    <string name="Ad">Supriya Ojha 7303637436\nVikas Yadav 8692970575</string>
+    <string name="mock">Shivam Pandey 8097609540\nOnkar Nevrekar 8828094304\nPriya Mandlik 9967239838</string>
+    <string name="Circuit">Akansha Shilkar 8097736620\nSiddhi Khadpe 9769611871\nAnand Yadav 7302569954</string>
+    <string name="text">Abhishek Dhuri 9167354793\nSwapnil Mali 8898518541\nNitin Pradhan 9004901192</string>
+    <string name="Mai">Girish Raut 9869396133</string>
+    <string name="Drame">Mehul Solanki 9819551468</string>
+    <string name="Rock">Sujit Padwal 8898739168</string>
+    <string name="Mr">Prasad Joshi 9819984422</string>
+    <string name="Dance">Ashish Khanvilkar 8652453112</string>
+    <string name="Moz">Karuna Poojari 9594409191</string>
+    <string name="Ant">Dhanashri Rawool 9930862312</string>
+    <string name="Har">Prathamesh Kelaskar 8108254496</string>
+    <string name="Short">Vishal Pugaonkar 9967340018</string>
+    <string name="Rap">Siddheshwar Munde 8879431072</string>
+</resources>

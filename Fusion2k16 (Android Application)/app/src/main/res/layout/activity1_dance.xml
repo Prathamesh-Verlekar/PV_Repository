@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#262626"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:src="@drawable/logo"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardBackgroundColor="#1a1a1a"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="50dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Dance+"/>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    app:cardElevation="5dp"
+                    app:cardBackgroundColor="#1a1a1a"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="15dp"
+                        android:text="\t\t\t\t\t\t\t\t\t Entry fees:  Rs 200 /-.\n
+Rules and regulations:
+Dance styles can vary from western to classical to folk to the typical Bollywood style.
+
+\n1. Full performance of the prepared dance.
+\n2. Time limit: 4-5 minutes.
+\n3. Participants are allowed to use props for a part of their performance.
+\n4. Teams are requested to submit their props list prior to the competition.
+\n5. Pre-recorded music should be brought in a pen drive and in a cd in .mp3 format only (Other form may not be supported on the computer – use them at your own risk).
+\n6. Any kind of fluid, flame or heavy object is not allowed on stage.
+\n7. Obscenity of any kind is not allowed and will lead to immediate disqualification.
+\nThe decision of the judges shall be final and binding.
+\n
+\nJudging criteria:
+\nChoreography, expressions, energy level, stage utilization, costumes and props, innovation, overall impact.
+The aptness of choreography for the  music, presentation, innovation, uniqueness of dance.
+\n
+\n**In case of conflicts, decision of the judges would be considered final.
+\nPrize   :
+\n1st: worth 5000 (cash+ vouchers) +Dance Scholarship worth 10,500/-
+\n2nd: worth 3000 (cash+ vouchers) +Dance Scholarship worth 10,500/-"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    app:cardElevation="5dp"
+                    app:cardBackgroundColor="#1a1a1a"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_margin="5dp"
+                            android:textSize="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Contact"
+                            />
+                        <TextView
+                            android:layout_margin="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:autoLink="phone"
+                            android:textSize="15dp"
+                            android:text="@string/Dance"/>
+                        <TextView
+                            android:layout_margin="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:autoLink="phone"
+                            android:textSize="15dp"
+                            android:text="Ushashri Naidu 9867469596"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>
+

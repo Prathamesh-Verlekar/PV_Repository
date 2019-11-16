@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#262626"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:src="@drawable/logo"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardBackgroundColor="#1a1a1a"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="50dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Rock the Ramp"/>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    app:cardElevation="5dp"
+                    app:cardBackgroundColor="#1a1a1a"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="17dp"
+                        android:text="\t\t\t\t\t\tEntry fees 1500\-(Group)
+                        \n\t\tGet ready to witness the most happening event of FUSION 2K15. Our favourite fashion show “Rock The Ramp” is back this year but this time its bigger and better prepare yourself to enjoy the performance of some of the finest models of the city along with some great choreographers and designer clothes.
+\nKEEP GUESSING THE SHOW STOPPER!!!!!!!
+\nwe are surely going to surprise you this time !!!!
+\n
+\nRules and Regulations:
+\nThere can be multiple teams from a single college.
+\nCrossover teams can be formed between students of different colleges, all having valid college id cards for current year.
+\n\nTeam size: 15-20 models
+\n  1-4 designers
+\n  1-3 makeup artists
+\n\nTeams can ask for assistance from people outside the college such as choreographers, makeup artists, but these professionals will not be considered to be a part of the team.
+\n\nVULGARITY of any kind would lead to disqualification of the team from the event. Hence if the team feels that any stunt or costume design can be considered as vulgar, it is strongly advised to consult the organizers before	"/>
+                </android.support.v7.widget.CardView>4
+                <android.support.v7.widget.CardView
+                    app:cardElevation="5dp"
+                    app:cardBackgroundColor="#1a1a1a"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_margin="5dp"
+                            android:textSize="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Contact"
+                            />
+                        <TextView
+                            android:layout_margin="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:autoLink="phone"
+                            android:textSize="15dp"
+                            android:text="Sujit Padwal 8898739168"/>
+                        <TextView
+                            android:layout_margin="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:autoLink="phone"
+                            android:textSize="15dp"
+                            android:text="Vaishnavi Gaonkar 8097763594"/>
+                        <TextView
+                            android:layout_margin="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:autoLink="phone"
+                            android:textSize="15dp"
+                            android:text="Purvik Gohil 8879121115"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>

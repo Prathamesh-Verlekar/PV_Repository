@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#262626"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:src="@drawable/logo"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardBackgroundColor="#1a1a1a"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="50dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Rubix"/>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    app:cardElevation="5dp"
+                    app:cardBackgroundColor="#1a1a1a"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:textSize="17dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\t\t\t\t\t\t\t\t\t\tEntry Fees 30/- Rs\n\n\t\t\tTwist your mind with our mind blowing puzzles.Break the records with our puzzles varying from the simple 3x3 cube to the Megaminx. And earn prizes for having fun!
+\n
+\nEvent format
+\n
+
+\nThe contest consists of 4 levels:
+
+\nChild's 3x3x3 puzzle:
+\n>  Here, you will need to solve a simple 3x3x3 Rubik's cube.
+\nTime limit: 3 minutes
+\n
+
+\nRules:
+\n
+
+\n>  Rubik's Cube will be provided to the participants.
+
+\n>  Every participant must strictly follow the time constraints.
+
+\n>  Any kind of malpractices will not be tolerated and will lead to disqualification.
+
+\n
+"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    app:cardElevation="5dp"
+                    app:cardBackgroundColor="#1a1a1a"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_margin="5dp"
+                            android:textSize="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Contact"
+                            />
+                        <TextView
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:autoLink="phone"
+                            android:text="Shailesh Sakat 7710885281"
+                            />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>
