@@ -1,0 +1,7 @@
+#Mon Mar 20 18:07:29 IST 2017
+base.0=C\:\\Users\\OWNER\\Desktop\\Android Expiry System\\Android Expiry System\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_945e75fab1474d45f303899de9a703fc8854abcb
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\OWNER\\Desktop\\Android Expiry System\\Android Expiry System\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1db80be5825419b097f65397b5a91805ad86bbe3\\classes.dex
+base.1=C\:\\Users\\OWNER\\Desktop\\Android Expiry System\\Android Expiry System\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1db80be5825419b097f65397b5a91805ad86bbe3
+file.0=C\:\\Users\\OWNER\\Desktop\\Android Expiry System\\Android Expiry System\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_945e75fab1474d45f303899de9a703fc8854abcb\\classes.dex

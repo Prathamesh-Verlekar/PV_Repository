@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.android.gms.samples.vision.barcodereader"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon2"
+        android:label="Android Expiry System"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+
+        <activity
+            android:name="com.google.android.gms.samples.vision.ocrreader.MainActivity"
+            android:label="@string/title_activity_main" />
+        <activity
+            android:name="com.google.android.gms.samples.vision.ocrreader.OcrCaptureActivity"
+            android:label="Read Text" />
+        <activity
+            android:name="com.google.android.gms.samples.vision.ocrreader.RegistrationActivity"
+            android:label="Register" />
+        <activity android:name="com.google.android.gms.samples.vision.ocrreader.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.samples.vision.ocrreader.ProductDetails"
+            android:label="Add Product" />
+        <activity
+            android:name="com.google.android.gms.samples.vision.ocrreader.HomeActivity"
+            android:label="Product Details" />
+
+        <service android:name="com.google.android.gms.samples.vision.ocrreader.BackgroundService" />
+
+        <activity android:name="com.google.android.gms.samples.vision.ocrreader.NotificationActivity" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

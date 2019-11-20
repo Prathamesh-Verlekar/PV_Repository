@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.1_01eb251fb570f1504bbcb55d811a093a56e2c1b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_d5d581a2c3e943daef63fcaf4f51abd95450bb3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_bd538b515af4e243f4d19e007f8fdf154f3b19c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_0327bad01e340993d3468762a4b45511c236366b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_d6396ba941418544adfd73abf78cb450dfc81017\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.1_7133a62a351000d2cab6a74a7bec95a14d885271\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_8b0a28893fb874f73e9ded3d18ba77600e5aba1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.1_8cd0b888e4be47b0daa901e221a925ab6f1dd2da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.2.0_17478752e81629073ecc23ba9de34e1e63957f61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_79bb5c9e9d6a47a7d6e830c1d512d5e548541ad8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_a6ceba7982b7405d78080bfc29d907829845936b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a03607067e69e36e5159c178e4789fc3f204ac7">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1db80be5825419b097f65397b5a91805ad86bbe3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_aa8ce6a76ab32eee8544a3ac8e1c9368cb6f21e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7b62dfce92583f1b543b8cd0e812945172893040">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_945e75fab1474d45f303899de9a703fc8854abcb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.2.0_cc2e5df39b36e5a4c5c2f26367d5f6db89258fbd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.2.0_a022d6795103a88f8d9932fa250fcf2999b29380\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.2.0_f23b0f863e57356dea09239139c9c79fed1495db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_d11ff47bb9d01bc1f56c9dfd7cd240169edaf339\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_f2d43a704ca4739b24ceb3f5157370ef31138069\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\OWNER\Desktop\Android Expiry System\Android Expiry System\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_3670395ac73bd2013c4c0baca6d8f172de6fa13c\classes.dex" />
+    </item>
+
+</items>

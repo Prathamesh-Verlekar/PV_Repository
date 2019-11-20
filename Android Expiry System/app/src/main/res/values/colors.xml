@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00695C</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#004D40</color>
+    <color name="yelow">#ffe625</color>
+    <color name="Aquamarine">#7FFFD4</color>
+    <color name="Caribbean_Green">#00CC99</color>
+    <color name="Dark_Spring_Green">#177245</color>
+    <color name="back_g">#9E9E9E</color>
+</resources>

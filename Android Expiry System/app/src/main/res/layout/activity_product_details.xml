@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_product_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    tools:context="com.google.android.gms.samples.vision.ocrreader.ProductDetails">
+
+    <TableLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:textColorHint="@android:color/black"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Product Name"
+                    android:ems="10"
+                    android:id="@+id/pname" />
+
+            </android.support.design.widget.TextInputLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="2"
+                android:text="Expiry Date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/exDate" />
+
+            <TextView
+                android:layout_weight="2"
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/setDate" />
+
+            <ImageView
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:src="@drawable/camera"
+                android:id="@+id/myImageView" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="1"
+                android:text="Type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView" />
+
+            <Spinner
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/typeSpinner" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="1"
+                android:text="Email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/email" />
+
+            <RadioGroup
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/myRadioGroup">
+                <RadioButton
+                    android:text="Yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/yesRadio"
+                    android:layout_weight="1"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:text="No"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noRadio"
+                    android:layout_weight="1" />
+            </RadioGroup>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:textColor="@color/Dark_Spring_Green"
+                android:layout_weight="1"
+                android:text="Notify"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/notify" />
+            <Spinner
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/notifySpinner" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp">
+            <Button
+                android:textColor="@android:color/white"
+                android:background="@color/colorAccent"
+                android:layout_weight="1"
+                android:text="Add"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/addProductButton" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
